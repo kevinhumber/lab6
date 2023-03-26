@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="elements-wrapper">
+
+            <h2 id="header">VALIDATE YOUR MARK</h2>
+            <p>Enter your information: </p>
+            <div class="label">
+                First name
+                <input id="first-name" class="textbox" type="text" value="">
+            </div>
+            <div class="label">
+                Last name
+                <input id="last-name" class="textbox" type="text" value="">
+            </div>
+
+            <div class="label">
+                Mark 1
+                <input id="mark1" class="textbox" type="text" value="">
+            </div>
+
+            <div class="label">
+                Mark 2
+                <input id="mark2" class="textbox" type="text" value="">
+            </div>
+
+            <div class="label">
+                Mark 3
+                <input id="mark3" class="textbox" type="text" value="">
+            </div>
+
+            <input onclick="validateTxt()" id="validate-btn" type="button" value="Validate">
+            <input onclick="printResult()" id="print-btn" type="button" value="print">
+
+            <p id="result"></p>
+
+
+        </div>
+
+
+
+        <script src="main.js"></script>
+
+    </div>
+</body>
+
+</html>
